@@ -26,4 +26,4 @@ Finally, in order to test your configuration you may want to run:
     sbatch -A <your_project_id> examples/spark-pi.sh
 
 ##Examples
-For usage please refer to the example directory in this repository. 
+For usage please refer to the examples directory in this repository. 
