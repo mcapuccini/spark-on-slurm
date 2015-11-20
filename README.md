@@ -25,5 +25,5 @@ Finally, in order to test your configuration you may want to run:
     export SPARK_EXAMPLES_JAR="/path/to/spark-examples.jar"
     sbatch -A <your_project_id> examples/spark-pi.sh
 
-##Examples
+##Usage
 For usage please refer to the examples directory in this repository. 
