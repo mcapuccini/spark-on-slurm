@@ -4,7 +4,7 @@ Spark jobs on SLURM, via sbatch. The scripts were tested using Spark 1.4.0 on
 UPPMAX (http://www.uppmax.uu.se/) milou HPC cluster. 
 
 ## Configuration
-The minimal configuration requirement is having a SPARK_HOME
+The minimal configuration requirement consists in having a SPARK_HOME
 environment variable pointing to the Spark installation folder:
 
     #/.bashrc
@@ -22,6 +22,7 @@ logs and temporary files on local scratch:
 
 Finally, in order to test your configuration you may want to run:
 
+    export SPARK_EXAMPLES_JAR="/path/to/spark-examples.jar"
     sbatch -A <your_project_id> examples/spark-pi.sh
 
 ##Examples
